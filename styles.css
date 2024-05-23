@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#coffee-number {
+    font-size: 40px;
+}
+
+#add-coffee {
+    font-size: 20px;
+}
+
