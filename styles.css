@@ -11,8 +11,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
+    background-color: #743a26;
 }
 
 #main-box {
@@ -23,14 +25,48 @@ body {
     align-items: center;
     width: 400px;
     height: 300px;
-    border: 1px solid black;
+    box-shadow: -13px 21px 27px 8px rgba(0,0,0,0.49);
+    background-color: #b25536;
 }
 
 #coffee-number {
     font-size: 40px;
 }
 
-#add-coffee {
+#add-coffee,
+#reset
+{
+    width: 160px;
+    padding: 5px;
+    font-weight: 900;
     font-size: 20px;
+    background-color: #e98d6e;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+button:active {
+    scale: 0.9;
+}
+
+#total-box {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b25536;
+    box-shadow: -13px 21px 27px 8px rgba(0,0,0,0.49);
+}
+
+#total-number {
+    padding-left: 10px;
 }
 
